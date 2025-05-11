@@ -1,0 +1,1226 @@
+/*----------------------
+MACBOOK (1520px)
+-----------------------*/
+
+@media (max-width: 95em) {
+  .hero-section {
+    width: 135rem;
+    margin: 4.8rem auto 19.6rem auto;
+  }
+
+  .primary-heading {
+    font-size: 7.4rem;
+  }
+
+  .img-hero-box {
+    display: flex;
+    justify-content: center;
+  }
+  .hero-img {
+    width: 80%;
+    height: 70%;
+  }
+  .arrow {
+    width: 16rem;
+    top: 47rem;
+    left: 50rem;
+  }
+
+  footer {
+    width: 90%;
+
+    margin: 1.6rem auto 3.2rem auto;
+  }
+
+  .secondary-heading {
+    font-size: 4.4rem;
+    margin-top: 1.2rem;
+  }
+  .mrg-btm-section {
+    margin-bottom: 6.4rem;
+  }
+}
+
+/*----------------------
+LARGE TABLET (1408px)
+-----------------------*/
+
+@media (max-width: 88em) {
+  html {
+    font-size: 56.25%;
+  }
+  .mrg-btm-section {
+    margin-bottom: 4.8rem;
+  }
+}
+
+/*----------------------
+LARGE TABLET (1248px)
+-----------------------*/
+
+@media (max-width: 78em) {
+  .hero-section {
+    width: 125rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .primary-heading {
+    font-size: 6.2rem;
+    margin-top: 2.4rem;
+    margin-bottom: 1.6rem;
+  }
+  .intro-text {
+    letter-spacing: 1.2px;
+    font-size: 1.4rem;
+  }
+  .text {
+    font-size: 1.7rem;
+    color: #4b4b4e;
+    line-height: 1.6;
+    margin-bottom: 4.8rem;
+  }
+  .secondary-heading {
+    margin-top: 0;
+  }
+  .third-heading {
+    margin-bottom: 1.2rem;
+  }
+  .box-header {
+    margin-bottom: 0.8rem;
+    margin-top: 1.2rem;
+  }
+
+  .box .text {
+    margin-bottom: 2.4rem;
+  }
+
+  .grid--3x2 {
+    column-gap: 6.4rem;
+    row-gap: 4.8rem;
+  }
+  .sign-in-box {
+    width: 70%;
+  }
+}
+
+/*----------------------
+LARGE TABLET (1160px)
+-----------------------*/
+
+@media (max-width: 72.5em) {
+  .primary-heading {
+    margin-top: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .hero-section {
+    width: 111.8rem;
+    margin-top: 3.2rem;
+    margin-bottom: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero-img {
+    width: 100%;
+    height: 90%;
+  }
+  .arrow {
+    width: 16rem;
+    top: 42rem;
+    left: 41rem;
+  }
+
+  .cio {
+    gap: 1.2rem;
+
+    margin-bottom: 4.8rem;
+  }
+  .access-section {
+    gap: 1.6rem;
+    margin-bottom: 3.2rem;
+  }
+  .features-sec {
+    margin-bottom: 4.8rem;
+  }
+  .customers-sec {
+    margin-bottom: 4.8rem;
+  }
+  footer {
+    margin-bottom: 2.4rem;
+  }
+  .customers-btn {
+    margin-top: 6.4rem;
+  }
+}
+
+/*----------------------
+MEDIUM TABLET (1035px)
+-----------------------*/
+
+@media (max-width: 65em) {
+  .container {
+    width: 100rem;
+  }
+  .hero-section {
+    width: 100rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .arrow {
+    width: 15rem;
+    top: 50rem;
+    left: 35rem;
+  }
+  .text-sec {
+    width: 75%;
+  }
+
+  .access-boxes {
+    width: 100rem;
+  }
+  .circle-1 {
+    width: 50rem;
+    height: 50rem;
+  }
+  .circle-3 {
+    width: 60rem;
+    height: 60rem;
+    top: 35rem;
+    left: 56.5rem;
+    transform: translate(-50%, -50%);
+  }
+  .circle-4 {
+    width: 62rem;
+    height: 62rem;
+    top: 3.5rem;
+    left: 16rem;
+  }
+  .hero-img {
+    width: 100%;
+    height: 100%;
+  }
+}
+/*----------------------
+SMALL TABLET (960px)
+-----------------------*/
+@media (max-width: 60em) {
+  html {
+    font-size: 50%;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero-section {
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 15rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .text-hero-box {
+    width: 75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .arrow {
+    width: 15rem;
+    top: 34rem;
+    left: 58rem;
+    transform: rotate(70deg);
+  }
+  .circle-3 {
+    width: 60rem;
+    height: 60rem;
+    top: 35rem;
+    left: 56.5rem;
+    transform: translate(-50%, -50%);
+  }
+  .circle-4 {
+    width: 62rem;
+    height: 62rem;
+    top: 4rem;
+    left: 16rem;
+  }
+
+  .access-boxes .box {
+    display: flex;
+    flex-direction: column;
+  }
+  .hello {
+    font-size: 3.4rem;
+    margin-bottom: 3.2rem;
+  }
+  .sign-in-text {
+    margin-bottom: 2.6rem;
+    font-size: 4.2rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (820px)
+-----------------------*/
+
+@media (max-width: 51.25em) {
+  .sign-in-box {
+    width: 80%;
+  }
+  .container {
+    width: 90rem;
+  }
+
+  .hero-section {
+    width: 90rem;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 2.4rem auto 12rem auto;
+  }
+  .access-boxes {
+    width: 90rem;
+  }
+
+  .circle-1 {
+    top: -1.3rem;
+    left: 56rem;
+  }
+  .circle-3 {
+    width: 50rem;
+    height: 50rem;
+    top: 33rem;
+    left: 56.5rem;
+    transform: translate(-50%, -50%);
+  }
+  .circle-4 {
+    width: 50rem;
+    height: 50rem;
+
+    top: 9rem;
+    left: 24rem;
+  }
+  .circle-5 {
+    width: 30rem;
+    height: 30rem;
+  }
+  header {
+    position: relative;
+  }
+
+  .arrow {
+    width: 14rem;
+    top: 33rem;
+    left: 52rem;
+  }
+
+  .nav {
+    background-color: rgb(244, 241, 237, 0.75);
+    backdrop-filter: blur(10px) !important;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    padding-top: 1.6rem;
+    font-weight: 700;
+    width: 100%;
+    height: 100vh;
+    transition: ease-in all 0.6s;
+    gap: 10rem;
+
+    transform: translateX(100%);
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .nav-open .nav {
+    opacity: 1;
+    pointer-events: unset;
+    visibility: visible;
+    transform: translateX(0);
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .nav-open .text-hero-box,
+  .nav-open .arrow {
+    transition: all 0.4s;
+    z-index: -1;
+  }
+  .menu-close-btn {
+    display: block;
+    z-index: 2;
+  }
+  .nav-open .mobile-btn[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .mobile-btn[name="menu-outline"] {
+    display: none;
+  }
+
+  .nav-section {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 1.2rem 4.8rem !important;
+    justify-self: center;
+    margin: 0 !important;
+  }
+  .sticky .nav-section {
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 1.2rem 8.2rem;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+  }
+  .log-sign-links {
+    width: max-content;
+    display: flex;
+    gap: 3.2rem;
+  }
+  .nav-link {
+    font-size: 2.4rem !important;
+  }
+  .menu-close-btn {
+    background: none;
+  }
+}
+
+/*----------------------
+SMALL TABLET (740px)
+-----------------------*/
+
+@media (max-width: 46.25em) {
+  .sign-in-box {
+    width: 90%;
+    height: 70%;
+  }
+  .img-cio {
+    width: 90%;
+  }
+  .primary-heading {
+    font-size: 5.2rem;
+  }
+  .secondary-heading {
+    font-size: 3.6rem;
+  }
+  .third-heading {
+    font-size: 2rem;
+  }
+  .text,
+  .feature-box {
+    font-size: 1.5rem;
+  }
+
+  .img-cio-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .features-boxes,
+  .access-boxes {
+    width: 80rem;
+  }
+
+  .grid--4x2 {
+    row-gap: 1.2rem;
+    column-gap: 0;
+  }
+  .intro-text {
+    font-size: 1.2rem;
+    line-height: 10px;
+  }
+  .arrow {
+    top: 28.5rem;
+    left: 50rem;
+  }
+  .circle-1 {
+    top: -0.7rem;
+  }
+
+  .circle-2 {
+    width: 40rem;
+    height: 40rem;
+    top: 30rem;
+    right: 3rem;
+    transform: translateY(-50%);
+  }
+
+  .circle-3 {
+    width: 40rem;
+    height: 40rem;
+    top: 33rem;
+    left: 56.5rem;
+    transform: translate(-50%, -50%);
+  }
+  .circle-4 {
+    width: 40rem;
+    height: 40rem;
+
+    top: 13rem;
+    left: 30rem;
+  }
+  .circle-5 {
+    width: 30rem;
+    height: 30rem;
+    top: 28rem;
+    left: 3rem;
+  }
+
+  .orange-background::after {
+    left: 28rem;
+    width: 15rem;
+    height: 4.5rem;
+  }
+  .orange-background::before {
+    content: "";
+    position: absolute;
+    left: 40rem;
+    top: -0.8rem;
+    width: 5rem;
+    height: 4.5rem;
+  }
+  .yellow-background::before {
+    left: 1rem;
+    top: -0.8rem;
+    width: 22rem;
+    height: 5rem;
+  }
+  .yellow-background::after {
+    left: -0.8rem;
+    top: -1.05rem;
+    width: 3rem;
+    height: 5rem;
+  }
+
+  .cyan-background::after {
+    bottom: -0.1rem;
+    right: 7.2rem;
+    width: 19.2rem;
+    height: 4.2rem;
+  }
+  .cyan-background::before {
+    bottom: 0rem;
+    right: 25.5rem;
+    width: 2rem;
+    height: 4.2rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (688px)
+-----------------------*/
+
+@media (max-width: 43em) {
+  .container {
+    width: 80rem;
+  }
+  .nav-section {
+    width: 100% !important;
+  }
+  .sticky .nav-section {
+    width: 100% !important;
+    padding: 1.2rem 7rem;
+  }
+
+  .hero-section {
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .access-boxes {
+    width: 80rem;
+  }
+  .primary-heading {
+    font-size: 4.8rem;
+  }
+  .secondary-heading {
+    font-size: 3.2rem;
+  }
+  .grid--2x2 {
+    grid-template-columns: 1fr;
+  }
+  .access-section {
+    width: 75%;
+    padding: 0;
+  }
+  .access-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+  br {
+    display: none;
+  }
+
+  .features-sec {
+    width: 75%;
+  }
+
+  .features-boxes {
+    width: 100%;
+    text-align: center;
+  }
+
+  .grid--3x2 {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 3.2rem;
+  }
+
+  .grid--4x2 {
+    column-gap: 1.6rem;
+  }
+
+  .logos {
+    width: 75%;
+  }
+
+  .circle-1 {
+    top: -0.8rem;
+    left: 50rem;
+    width: 30rem;
+    height: 30rem;
+  }
+  .circle-2 {
+    width: 40rem;
+    height: 40rem;
+    top: 23rem;
+    right: 3rem;
+    transform: translateY(-50%);
+  }
+  .circle-3 {
+    width: 35rem;
+    height: 35rem;
+    top: 30rem;
+    left: 50rem;
+  }
+  .circle-4 {
+    width: 40rem;
+    height: 40rem;
+
+    top: 8rem;
+    left: 23rem;
+  }
+  .circle-5 {
+    width: 30rem;
+    height: 30rem;
+    top: 23rem;
+    left: 3rem;
+  }
+  .applications {
+    width: 80%;
+    gap: 0;
+  }
+  .app {
+    padding: 0 !important;
+    width: 100%;
+    justify-content: center;
+    height: 4.1rem;
+  }
+  .app-name {
+    font-size: 1.4rem;
+  }
+
+  .figma-logo {
+    width: 2.4rem;
+  }
+  .adobe-logo {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .sketch-logo {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .chrome-logo {
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+  .orange-background::after {
+    left: 19.7rem;
+    top: -0.8rem;
+    width: 18rem;
+    height: 4.5rem;
+  }
+  .orange-background::before {
+    left: 35rem;
+    top: -0.8rem;
+    width: 5rem;
+    height: 4.5rem;
+  }
+  .yellow-background::before {
+    left: 1rem;
+    top: -0.8rem;
+    width: 19.2rem;
+    height: 4.7rem;
+  }
+  .yellow-background::after {
+    left: -0.8rem;
+    top: -1.05rem;
+    width: 3rem;
+    height: 4.7rem;
+  }
+  .cyan-background::after {
+    bottom: -0.5rem;
+    right: 22rem;
+    width: 17rem;
+    height: 4rem;
+  }
+  .cyan-background::before {
+    bottom: -0.3rem;
+    right: 38.2rem;
+    width: 2rem;
+    height: 4rem;
+  }
+  .arrow {
+    top: 27.5rem;
+    left: 46rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (640px)
+-----------------------*/
+
+@media (max-width: 40em) {
+  .sign-in-box {
+    width: 100%;
+    height: 70%;
+  }
+  .hello {
+    font-size: 3rem;
+    margin-bottom: 3.2rem;
+  }
+  .sign-up-text {
+    font-size: 1.6rem;
+  }
+  .sign-in-text {
+    margin-bottom: 2.6rem;
+    font-size: 3.8rem;
+  }
+  .acc-text {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+  }
+  ::placeholder {
+    font-size: 1.4rem;
+  }
+  .forgot {
+    font-size: 1.5rem;
+  }
+  .form-btn {
+    font-size: 1.2rem;
+    padding: 1.3rem 4rem;
+  }
+  .hero-section {
+    width: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .nav-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .cio {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .customers-sec {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .arrow {
+    width: 14rem;
+    top: 28rem;
+    left: 33rem;
+  }
+  .customers-header {
+    width: 80%;
+  }
+  .cyan-background::after {
+    bottom: -0.5rem;
+    right: 16rem;
+    width: 17rem;
+    height: 4rem;
+  }
+  .cyan-background::before {
+    bottom: -0.4rem;
+    right: 32.2rem;
+    width: 2rem;
+    height: 4rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (600px)
+-----------------------*/
+
+@media (max-width: 37.5em) {
+  .circle-3 {
+    width: 35rem;
+    height: 35rem;
+    top: 26rem;
+    left: 50rem;
+  }
+  .circle-4 {
+    width: 30rem;
+    height: 30rem;
+    top: 14rem;
+    left: 28rem;
+  }
+  .circle-5 {
+    width: 25rem;
+    height: 25rem;
+    top: 20rem;
+    left: 3rem;
+  }
+
+  .cyan-background::after {
+    bottom: -0.5rem;
+    right: 5.5rem;
+    width: 17rem;
+    height: 4rem;
+  }
+  .cyan-background::before {
+    bottom: -0.4rem;
+    right: 21.2rem;
+    width: 2rem;
+    height: 3.9rem;
+  }
+  .footer-boxes {
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+  }
+  .company-footer {
+    grid-column: 3/4;
+  }
+  .resources-footer {
+    grid-column: 2/3;
+    grid-row: 1/3;
+    align-self: center;
+  }
+
+  .nav-header {
+    margin-bottom: 1rem;
+  }
+
+  .footer-links {
+    gap: 0.8rem;
+    margin-bottom: 3.6rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (544px)
+-----------------------*/
+
+@media (max-width: 34em) {
+  .circle-2 {
+    width: 25rem;
+    height: 25rem;
+    top: 20rem;
+    right: 2rem;
+  }
+
+  .circle-3 {
+    width: 25rem;
+    height: 25rem;
+    top: 28rem;
+    left: 40rem;
+  }
+  .circle-4 {
+    width: 30rem;
+    height: 30rem;
+    top: 10rem;
+    left: 20rem;
+  }
+  .circle-5 {
+    width: 25rem;
+    height: 25rem;
+    top: 20rem;
+    left: 3rem;
+  }
+
+  .cyan-background::after {
+    bottom: -0.5rem;
+    right: 4rem;
+    width: 16rem;
+    height: 4rem;
+  }
+  .cyan-background::before {
+    bottom: -0.4rem;
+    right: 19.2rem;
+    width: 2rem;
+    height: 4rem;
+  }
+
+  .primary-heading {
+    font-size: 4rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  .secondary-heading {
+    font-size: 3rem;
+  }
+  .cio {
+    gap: 0.8rem;
+  }
+  .arrow {
+    width: 12rem;
+    top: 27rem;
+    left: 35rem;
+  }
+  .orange-background::after {
+    left: 18.5rem;
+    top: -0.7rem;
+    width: 15rem;
+    height: 4rem;
+  }
+  .orange-background::before {
+    left: 32rem;
+    top: -0.7rem;
+    width: 5rem;
+    height: 4rem;
+  }
+  .yellow-background::before {
+    left: 1rem;
+    top: -0.8rem;
+    width: 18rem;
+    height: 4.2rem;
+  }
+  .yellow-background::after {
+    left: -0.8rem;
+    top: -1.05rem;
+    width: 3rem;
+    height: 4.2rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (512px)
+-----------------------*/
+
+@media (max-width: 32em) {
+  .sign-in-box {
+    height: 100%;
+    grid-template-columns: 2fr 1fr;
+  }
+  .circle-1 {
+    top: -0.5rem;
+    left: 40rem;
+    width: 30rem;
+    height: 30rem;
+  }
+
+  .hello {
+    width: 85%;
+    text-align: center;
+  }
+
+  .circle-2 {
+    width: 25rem;
+    height: 25rem;
+    top: 20rem;
+    right: 2.2rem;
+  }
+
+  .circle-3 {
+    width: 20rem;
+    height: 20rem;
+    top: 28rem;
+    left: 38rem;
+  }
+  .circle-4 {
+    width: 25rem;
+    height: 25rem;
+    top: 13rem;
+    left: 20rem;
+  }
+  .circle-5 {
+    width: 20rem;
+    height: 20rem;
+    top: 17rem;
+    left: 2rem;
+  }
+  .cyan-background::after {
+    bottom: -0.5rem;
+    right: 2.5rem;
+    width: 16rem;
+    height: 4rem;
+  }
+  .cyan-background::before {
+    bottom: -0.4rem;
+    right: 17.6rem;
+    width: 2rem;
+    height: 4rem;
+  }
+}
+
+.logos img:nth-child(1) {
+  top: 38%;
+  width: 30%;
+}
+.logos img:nth-child(2) {
+  top: 20%;
+  width: 30%;
+}
+.logos img:nth-child(3) {
+  top: 38%;
+  width: 38%;
+}
+
+.logos img:nth-child(5) {
+  top: 40%;
+  width: 35%;
+}
+.logos img:nth-child(6) {
+  width: 16%;
+  top: 20%;
+}
+.logos img:nth-child(7) {
+  width: 20%;
+  top: 20%;
+}
+.logos img:nth-child(8) {
+  top: 38%;
+  width: 30%;
+}
+
+/*----------------------
+SMALL TABLET (470px)
+-----------------------*/
+
+@media (max-width: 29.375em) {
+  .hero-section {
+    width: 45rem;
+
+    margin: 3.2rem auto 12rem auto;
+  }
+  .cio {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .customers-sec {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  .text-nav {
+    margin-bottom: 3.2rem;
+  }
+
+  .arrow {
+    width: 12rem;
+    top: 27.5rem;
+    left: 30rem;
+  }
+
+  .nav-link {
+    font-size: 2rem !important;
+  }
+
+  .access-boxes {
+    margin-top: 2.4rem;
+  }
+
+  .box-header {
+    margin-bottom: 0.6rem;
+    margin-top: 1.2rem;
+  }
+  .third-heading {
+    font-size: 2.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .features-boxes {
+    margin-top: 3.2rem;
+  }
+  .grid--3x2 {
+    column-gap: 3.6rem;
+    row-gap: 2.4rem;
+  }
+  .customers-btn {
+    margin-top: 4.8rem;
+  }
+
+  .features-sec,
+  .customers-sec,
+  .cio {
+    margin-bottom: 3.2rem;
+  }
+  .footer-text {
+    font-size: 1.2rem;
+  }
+  .last-text {
+    width: 100%;
+  }
+  .heart-icon {
+    width: 3.2rem;
+    height: 3.2rem;
+  }
+
+  .circle-3 {
+    width: 20rem;
+    height: 20rem;
+    top: 25rem;
+    left: 38rem;
+  }
+  .circle-4 {
+    width: 25rem;
+    height: 25rem;
+    top: 10rem;
+    left: 20rem;
+  }
+
+  .cyan-background::after {
+    bottom: -0.1rem;
+    right: 0.8rem;
+    width: 16rem;
+    height: 3.5rem;
+  }
+  .cyan-background::before {
+    bottom: -0rem;
+    right: 15.6rem;
+    width: 2rem;
+    height: 3.5rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (422px)
+-----------------------*/
+
+@media (max-width: 26.375em) {
+  .cyan-background::after {
+    bottom: -0.1rem;
+    right: 9.5rem;
+    width: 16rem;
+    height: 3.5rem;
+  }
+  .cyan-background::before {
+    bottom: -0rem;
+    right: 24rem;
+    width: 2rem;
+    height: 3.5rem;
+  }
+  .circle-1 {
+    top: -0.5rem;
+    left: 30rem;
+    width: 20rem;
+    height: 20rem;
+  }
+  .circle-2 {
+    width: 15rem;
+    height: 15rem;
+    top: 15rem;
+    right: 2.2rem;
+  }
+  .circle-3 {
+    width: 20rem;
+    height: 20rem;
+    top: 21rem;
+    left: 33rem;
+  }
+  .circle-4 {
+    width: 25rem;
+    height: 25rem;
+    top: 6.5rem;
+    left: 16rem;
+  }
+  .circle-5 {
+    width: 15rem;
+    height: 15rem;
+    top: 14rem;
+    left: 2rem;
+  }
+  .app {
+    height: 4rem;
+  }
+  .app-name {
+    font-size: 1.2rem;
+  }
+  .figma-logo {
+    width: 2rem;
+  }
+  .adobe-logo {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .sketch-logo {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+  .chrome-logo {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .mrg-btm-section {
+    margin-bottom: 3.6rem;
+  }
+
+  .sticky .nav-section {
+    width: 100% !important;
+    padding: 1.2rem 5rem;
+  }
+}
+
+/*----------------------
+SMALL TABLET (388px)
+-----------------------*/
+
+@media (max-width: 24.25em) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+/*----------------------
+SMALL TABLET (350px)
+-----------------------*/
+
+@media (max-width: 21.875em) {
+  .cyan-background::after {
+    bottom: -0.1rem;
+    right: 8rem;
+    width: 16rem;
+    height: 3.5rem;
+  }
+  .cyan-background::before {
+    bottom: -0rem;
+    right: 23rem;
+    width: 2rem;
+    height: 3.5rem;
+  }
+  .footer-text {
+    line-height: 10px;
+    letter-spacing: 0.75px;
+  }
+  .sticky .nav-section {
+    width: 100% !important;
+    padding: 1.2rem 4rem;
+  }
+} ;
